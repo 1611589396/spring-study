@@ -11,7 +11,9 @@
     <bean id="user" class="com.kuang.pojo.User" p:name="秦疆" p:age="18"/>
 
 
-    <!--c命名空间注入，通过构造器注入：construct-args-->
+    <!--c命名空间注入，通过构造器注入：construct-args
+    scope="singleton"：默认是，这里是显式的声明。
+    -->
     <bean id="user2" class="com.kuang.pojo.User" c:age="18" c:name="狂神" scope="prototype"/>
 
 
