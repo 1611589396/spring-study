@@ -12,9 +12,9 @@
     -->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/mybatis?useSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
+        <property name="url" value="jdbc:mysql://124.221.249.213:3306/mybatis?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>
         <property name="username" value="root"/>
-        <property name="password" value="123456"/>
+        <property name="password" value="myk522326"/>
     </bean>
 
     <!--sqlSessionFactory-->

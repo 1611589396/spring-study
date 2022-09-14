@@ -12,7 +12,10 @@ import org.aspectj.lang.annotation.Before;
 
 @Aspect //标注这个类是一个切面
 public class AnnotationPointCut {
-
+    /**
+     * @Before("execution(* com.kuang.service.UserServiceImpl.*(..))")
+     * 找到这个类的方法，无论多少个参数
+     */
     @Before("execution(* com.kuang.service.UserServiceImpl.*(..))")
     public void before(){
         System.out.println("=====方法执行前======");

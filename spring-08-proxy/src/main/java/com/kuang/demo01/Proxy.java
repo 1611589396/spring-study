@@ -1,5 +1,8 @@
 package com.kuang.demo01;
 
+/**
+ * 代理角色
+ */
 public class Proxy implements Rent {
 
     private Host host;
@@ -10,7 +13,7 @@ public class Proxy implements Rent {
         this.host = host;
     }
 
-
+    @Override
     public void rent() {
         seeHouse();
         host.rent();

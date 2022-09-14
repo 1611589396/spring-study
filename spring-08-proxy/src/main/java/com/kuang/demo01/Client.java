@@ -1,5 +1,8 @@
 package com.kuang.demo01;
 
+/**
+ * 客户端访问代理角色
+ */
 public class Client {
     public static void main(String[] args) {
         //房东要租房子

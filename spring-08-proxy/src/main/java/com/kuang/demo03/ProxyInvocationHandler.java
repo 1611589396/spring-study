@@ -22,6 +22,7 @@ public class ProxyInvocationHandler implements InvocationHandler {
 
 
     //处理代理实例，并返回结果
+    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         //动态代理的本质，就是使用反射机制实现！
         seeHouse();
